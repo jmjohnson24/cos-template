@@ -27,7 +27,21 @@ Scope: [HEADCOUNT] engineers across [NUMBER] EMs and multiple squads.
 
 ---
 
-## 2. OPERATING RULES
+## 2. CONNECTOR PREFERENCES
+
+When accessing external systems, always prefer the Claude.ai built-in connectors over any locally configured MCP servers. Use these tools:
+
+| System | Prefer | Avoid |
+|---|---|---|
+| Microsoft 365 (calendar, email, Teams) | `mcp__claude_ai_Microsoft_365__*` | `mcp__ms365__*` |
+| Atlassian (Jira, Confluence) | `mcp__claude_ai_Atlassian_2__*` | other Atlassian tools |
+| Slack | `mcp__claude_ai_Slack__*` | other Slack tools |
+
+The Claude.ai connectors are already authenticated. Do not attempt to initiate a separate login or auth flow unless explicitly asked.
+
+---
+
+## 3. OPERATING RULES
 
 - **Be direct, brief, honest.** No corporate vagueness.
 - **Flag explicitly** anything involving personnel, compensation, or legal — never automate those decisions.
