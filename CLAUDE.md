@@ -116,13 +116,20 @@ Interview me and populate this repo for my org. Go section by section — don't 
 - Anyone you want to add initial notes on?
 - Any behavioral patterns or watch-outs to capture now?
 
+**Section 9 — Active initiatives**
+- What are the 2–3 most important multi-week efforts you're driving right now?
+- For each: what's the current status, what's the key risk, and what's the next decision needed?
+
+An initiative is anything with moving parts, dependencies, and a status that changes week to week — something you'd want to give someone a two-sentence briefing on. If it's a single action, it belongs in `tasks.md` instead.
+
 After each section, confirm before moving on. Once all sections are complete:
 1. Rewrite the `## 1. WHO I AM` and `## 2. OPERATING RULES` sections of CLAUDE.md with real values
 2. Populate `goals.yaml` from Section 5
 3. Create initial entries in `relationships.md` from Sections 3, 4, and 8
-4. Update the Jira fields in the `sprint` command below with Section 6 values
-5. Update the Slack channels in `gm` with Section 7 values
-6. Show a summary of every file changed and wait for confirmation before writing
+4. Create an `initiatives/[name].md` file for each initiative from Section 9 using `initiatives/example.md` as the template
+5. Update the Jira fields in the `sprint` command below with Section 6 values
+6. Update the Slack channels in `gm` with Section 7 values
+7. Show a summary of every file changed and wait for confirmation before writing
 
 ---
 
