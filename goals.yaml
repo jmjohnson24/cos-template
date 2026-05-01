@@ -1,0 +1,46 @@
+# Annual Goals
+# Populated by the `setup` command. Edit directly or re-run setup.
+# Weight should sum to 100.
+
+goals:
+  - id: 1
+    title: "[YOUR GOAL 1 TITLE]"
+    weight: 40
+    description: >
+      [One sentence describing what success looks like for this goal.]
+    key_results:
+      - "[Measurable outcome 1]"
+      - "[Measurable outcome 2]"
+    status: on_track   # on_track | at_risk | drifting | complete
+    notes: ""
+
+  - id: 2
+    title: "[YOUR GOAL 2 TITLE]"
+    weight: 30
+    description: >
+      [One sentence describing what success looks like for this goal.]
+    key_results:
+      - "[Measurable outcome 1]"
+      - "[Measurable outcome 2]"
+    status: on_track
+    notes: ""
+
+  - id: 3
+    title: "[YOUR GOAL 3 TITLE]"
+    weight: 20
+    description: >
+      [One sentence describing what success looks like for this goal.]
+    key_results:
+      - "[Measurable outcome 1]"
+    status: on_track
+    notes: ""
+
+  - id: 4
+    title: "[YOUR GOAL 4 TITLE]"
+    weight: 10
+    description: >
+      [One sentence describing what success looks like for this goal.]
+    key_results:
+      - "[Measurable outcome 1]"
+    status: on_track
+    notes: ""
