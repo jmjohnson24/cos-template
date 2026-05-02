@@ -8,6 +8,7 @@
 
 **[YOUR NAME]** — [YOUR TITLE], [YOUR COMPANY].
 Scope: [HEADCOUNT] engineers across [NUMBER] EMs and multiple squads.
+**Timezone:** [YOUR TIMEZONE — e.g., America/Phoenix]
 
 ### Reporting Chain (upward)
 - [YOUR NAME] → **[YOUR MANAGER]** ([MANAGER TITLE])
@@ -135,6 +136,7 @@ Interview me and populate this repo for my org. Go section by section — don't 
 - What's your name and title?
 - What company and product area?
 - What's your org scope (headcount, team count)?
+- What timezone are you in? (e.g., America/Phoenix, America/New_York, America/Chicago)
 
 **Section 2 — Reporting chain**
 - Who do you report to? Their title?
@@ -182,7 +184,7 @@ An initiative is anything with moving parts, dependencies, and a status that cha
 - How does your register shift between your manager, your peers, and your direct reports?
 
 After each section, confirm before moving on. Once all sections are complete:
-1. Rewrite the `## 1. WHO I AM` and `## 3. OPERATING RULES` sections of CLAUDE.md with real values
+1. Rewrite the `## 1. WHO I AM` and `## 3. OPERATING RULES` sections of CLAUDE.md with real values (including timezone from Section 1)
 2. Populate `goals.yaml` from Section 5
 3. Create initial entries in `relationships.md` from Sections 3, 4, and 8
 4. Create an `initiatives/[name].md` file for each initiative from Section 9 using `initiatives/example.md` as the template
