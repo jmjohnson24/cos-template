@@ -17,6 +17,7 @@ Built and used by [Justin Johnson](https://github.com/jmjohnson24) at Thryv. Sha
 - **`check`** — Friday goals drift check
 - **`week`** — Weekly initiative status for Friday updates
 - **`sprint [team]`** — Pull and analyze sprint data from Jira
+- **`/schedule`** — Set up remote routines that run automatically on a schedule and DM you the output via Slack. Claude will also suggest routines when it notices you running the same command at the same time repeatedly.
 
 ---
 

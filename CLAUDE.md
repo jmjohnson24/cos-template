@@ -64,6 +64,8 @@ The Claude.ai connectors are already authenticated. Do not attempt to initiate a
 
 **System improvement:** When you notice a repeated correction, friction pattern, or gap in these instructions, propose a targeted fix — 10 lines or fewer, specific location in CLAUDE.md. Don't accumulate feedback silently. Small, frequent improvements compound.
 
+**Routine suggestions:** When you notice the same command being requested at a consistent time of day or day of week across multiple sessions, proactively suggest automating it: "This looks like a pattern — want me to set up a routine? It would run automatically and DM you the output via Slack." Use the `/schedule` skill to create it.
+
 ---
 
 ## 4. OPERATING MODES
@@ -183,6 +185,12 @@ An initiative is anything with moving parts, dependencies, and a status that cha
 - How do you typically close a Slack message? An email?
 - How does your register shift between your manager, your peers, and your direct reports?
 
+**Section 11 — Routines**
+- Are there any commands you'd want to run automatically on a schedule?
+- Common examples: `gm` every weekday morning, `wins` every Thursday, `check` every Friday afternoon
+- Routines run in Anthropic's cloud, pull fresh from your repo each time, and can DM output to your Slack
+- You'll set these up with `/schedule` after completing setup — just note them here for now
+
 After each section, confirm before moving on. Once all sections are complete:
 1. Rewrite the `## 1. WHO I AM` and `## 3. OPERATING RULES` sections of CLAUDE.md with real values (including timezone from Section 1)
 2. Populate `goals.yaml` from Section 5
@@ -192,6 +200,7 @@ After each section, confirm before moving on. Once all sections are complete:
 6. Update the Slack channels in `gm` with Section 7 values
 7. Populate the `## 5. WRITING STYLE` section of CLAUDE.md from Section 10
 8. Show a summary of every file changed and wait for confirmation before writing
+9. After files are confirmed and written, remind the user to run `/schedule` to set up any routines from Section 11
 
 ---
 
