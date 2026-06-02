@@ -1,6 +1,6 @@
 # Chief of Staff OS — Template
 
-A Claude Code–powered operating system for engineering directors. Helps you run a tighter daily rhythm — morning briefs, meeting prep, EOD capture, and exec communication — without the admin overhead.
+A Claude Code–powered operating system for engineering leaders. Helps you run a tighter daily rhythm — morning briefs, meeting prep, EOD capture, and exec communication — without the admin overhead.
 
 Built and used by [Justin Johnson](https://github.com/jmjohnson24) at Thryv. Shared as a template for others to adapt.
 
